@@ -1,3 +1,6 @@
+![myLogo](https://user-images.githubusercontent.com/88631022/220714267-28847a05-4f08-4ebf-9565-374a92d69d32.PNG)
+
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -63,9 +66,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[I used BETWEEN AND clauses]**
+- **[I also used INSERT INTO to add columns in table]**
+- **[I used SELECT FROM statements]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,26 +94,20 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
 ```sh
- gem install rails
+ gem install postgreSQL
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/EddyShimwa/vet_clinic_db.git
 ```
---->
 
 ### Install
 
@@ -119,39 +116,13 @@ Install this project with:
 <!--
 Example command:
 
-```sh
-  cd my-project
-  gem install
-```
---->
-
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
-You can deploy this project using:
+No deployment yet!
 
 <!--
 Example:
@@ -181,9 +152,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Adding queries to update the table**
+- **I'll also add the GROUP BY query to group items**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
