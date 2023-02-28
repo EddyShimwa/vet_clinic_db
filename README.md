@@ -66,16 +66,16 @@
 > Describe between 1-3 key features of the application.
 
 - **[I used BETWEEN AND clauses]**
-- **[I also used INSERT INTO to add columns in table]**
+- **[I also used INSERT INTO to add records columns in table]**
 - **[I used SELECT FROM statements]**
+
+![schema](https://user-images.githubusercontent.com/88631022/221862426-e1d592c4-8956-4ba1-97ec-a1a0c8fbb2b1.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
