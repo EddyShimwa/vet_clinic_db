@@ -95,11 +95,3 @@ ALTER TABLE IF EXISTS public.treatments
 
 CREATE INDEX IF NOT EXISTS idx_medical_history_id ON public.medical_histories_treatments (medical_history_id);
 CREATE INDEX IF NOT EXISTS idx_treatment_id ON public.medical_histories_treatments (treatment_id);
-
-
-
-
-
-
-
-
