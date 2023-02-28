@@ -43,3 +43,49 @@ CREATE TABLE IF NOT EXISTS public.treatments
     name character varying,
     PRIMARY KEY (id)
 );
+
+ALTER TABLE IF EXISTS public.medical_histories
+    ADD CONSTRAINT patient_id FOREIGN KEY (patient_id)
+    REFERENCES public.patients (id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+ALTER TABLE IF EXISTS public.medical_histories
+    ADD FOREIGN KEY (id)
+    REFERENCES public.treatments (id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+ALTER TABLE IF EXISTS public.invoices
+    ADD CONSTRAINT medical_history_id FOREIGN KEY (medical_history_id)
+    REFERENCES public.medical_histories (id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+ALTER TABLE IF EXISTS public.invoice_items
+    ADD CONSTRAINT invoice_id FOREIGN KEY (invoice_id)
+    REFERENCES public.invoices (id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+ALTER TABLE IF EXISTS public.invoice_items
+    ADD CONSTRAINT treatment_id FOREIGN KEY (treatment_id)
+    REFERENCES public.treatments (id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+ALTER TABLE IF EXISTS public.treatments
+    ADD FOREIGN KEY (id)
+    REFERENCES public.medical_histories (id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+
+
+
+
+
+
+
