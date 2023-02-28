@@ -9,7 +9,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -72,16 +71,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -136,13 +125,19 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **SHIMWA Pray Eddy**
 
 - GitHub: [@EddyShimwa](https://github.com/EddyShimwa)
 - Twitter: [@eddy56388406](https://twitter.com/eddy56388406)
 - LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/pray-eddy-shimwa/)
+
+👤 **Kashif-Saleem-Ghuman**
+
+- GitHub: [Kashif](https://github.com/Kashif-Saleem-Ghuman)
+- Twitter: [Kashif](https://twitter.com/Kashif14Saleem)
+- LinkedIn: [Kashif](https://www.linkedin.com/in/kashifsaleemghuman/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

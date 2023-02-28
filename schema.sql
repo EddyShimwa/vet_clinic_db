@@ -47,4 +47,11 @@ CREATE TABLE visits (
     visited_date date NOT NULL DEFAULT CURRENT_DATE
 );
 
+--Performance optimization
+CREATE INDEX animals_visits_idx ON visits(animal_id);
+
+CREATE INDEX vets_visits_idx ON visits(vet_id);
+
+CREATE INDEX owners_visits_idx ON owners(email);
+
 

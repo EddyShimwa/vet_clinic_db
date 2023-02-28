@@ -145,3 +145,9 @@ SELECT vets.name, species.name, count(species.name) from vets
   WHERE vets.name = 'Maisy SMith'
   GROUP BY species.name, vets.name
   ORDER BY count DESC lIMIT 1;
+
+-- Week Two
+
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
