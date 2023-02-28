@@ -43,3 +43,18 @@ CREATE TABLE IF NOT EXISTS public.treatments
     name character varying,
     PRIMARY KEY (id)
 );
+
+-- Drop existing foreign key constraint
+ALTER TABLE IF EXISTS public.medical_histories_treatments
+    DROP CONSTRAINT IF EXISTS medical_history_id_fk;
+
+-- Create foreign key constraint
+ALTER TABLE IF EXISTS public.medical_histories_treatments
+    ADD CONSTRAINT medical_history_id_fk FOREIGN KEY (medical_history_id)
+    REFERENCES public.medical_histories (id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+CREATE INDEX IF NOT EXISTS idx_medical_history_id ON public.medical_histories_treatments (medical_history_id);
+CREATE INDEX IF NOT EXISTS idx_treatment_id ON public.medical_histories_treatments (treatment_id);
